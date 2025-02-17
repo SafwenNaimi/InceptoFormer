@@ -1,4 +1,4 @@
-# Multi-Signal Gait Dynamics Representation Analysis for Parkinson’s Disease Severity Evaluation
+# InceptoFormer: A Multi-Signal neural framework for Parkinson’s Disease Severity Evaluation from Gait
 
 ![alt text](https://github.com/SafwenNaimi/InceptoFormer/blob/main/architecture.png)
 

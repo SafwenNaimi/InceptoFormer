@@ -1,1 +1,3 @@
 # InceptoFormer
+
+## Getting the code

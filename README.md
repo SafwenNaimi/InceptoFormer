@@ -1,5 +1,8 @@
 # InceptoFormer
 
+![alt text](https://github.com/SafwenNaimi/InceptoFormer/blob/main/architecture.png)
+
+
 ## Getting the code
 You can download a copy of all the files in this repository by cloning the git repository.
 

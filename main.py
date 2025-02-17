@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -
-
 import re
 import numpy as np
 import warnings
@@ -25,24 +23,11 @@ from tensorflow.keras.layers import Dropout, Flatten, Conv1D
 from tensorflow.keras.layers import Dense, Flatten, Dropout
 from tensorflow.keras import backend as K
 import tensorflow.compat.v1 as tf
-#tf.config.experimental_run_functions_eagerly(True)
 
 # dropout 0.2// class imbalnce // 2 folds // learning rate 0.0001
 
 import uuid
-"""
-def CNN1D(input):
-    input1 = input
-    x = Conv1D(filters=8, kernel_size=3, activation='selu', padding='valid')(input1)
-    x = Conv1D(filters=16, kernel_size=3, activation='selu', padding='valid')(x)
-    x = layers.MaxPooling1D(2)(x)
-    x = Conv1D(filters=16, kernel_size=3, activation='selu', padding='valid')(x)
-    x = Conv1D(filters=1, kernel_size=3, activation='selu', padding='valid')(x)
-    x = layers.UpSampling1D(2)(x)
-    x = Conv1D(filters=1, kernel_size=100, activation='selu', padding='same')(x) # final Conv1D layer to increase size
-    
-    return x
-"""
+
 from tensorflow.keras.layers import (
     LSTM,
      Bidirectional,
